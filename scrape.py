@@ -1,13 +1,14 @@
 import pandas as pd
 from itertools import combinations
 import os, json
-from utils import parsePage, dataPipe, getCard
+from utils import parsePage, dataPipe, getCard, parseInfo
 
 if __name__ == "__main__":
 
     _DATAROOT_ = "./Data"
     MATCHPATH = "matches.csv"
     SCOREPATH = "scorecard.json"
+    PLAYERPATH = "allplayers.json"
 
     Teams = [
         "AFG",
@@ -52,3 +53,10 @@ if __name__ == "__main__":
 
     with open(os.path.join(_DATAROOT_, SCOREPATH), "w") as fp:
         json.dump(scorecards, fp)
+
+    with open(os.path.join(_DATAROOT_, SCOREPATH), "w") as fp:
+        players = json.load(fp).keys()
+
+    info = {k: parseInfo(k) for k in players}
+    info = pd.DataFrame.from_dict(info, orient="index")
+    info.to_csv("player_att.csv")
