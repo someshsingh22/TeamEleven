@@ -1,1 +1,17 @@
-{"AFG": "Afghanistan", "AUS": "Australia", "BAN": "Bangladesh", "ENG": "England", "IND": "India", "IRE": "Ireland", "KEN": "Kenya", "NED": "Netherlands", "NZL": "New Zealand", "PAK": "Pakistan", "SAF": "Scotland", "SCO": "South Africa", "SRL": "Sri Lanka", "WIN": "West Indies", "ZIM": "Zimbabwe"}
+{
+    "AFG": "Afghanistan",
+    "AUS": "Australia",
+    "BAN": "Bangladesh",
+    "ENG": "England",
+    "IND": "India",
+    "IRE": "Ireland",
+    "KEN": "Kenya",
+    "NED": "Netherlands",
+    "NZL": "New Zealand",
+    "PAK": "Pakistan",
+    "SAF": "Scotland",
+    "SCO": "South Africa",
+    "SRL": "Sri Lanka",
+    "WIN": "West Indies",
+    "ZIM": "Zimbabwe"
+}
