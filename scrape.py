@@ -8,7 +8,7 @@ if __name__ == "__main__":
     _DATAROOT_ = "./Data"
     MATCHPATH = "matches.csv"
     SCOREPATH = "scorecard.json"
-    PLAYERPATH = "allplayers.json"
+    BATPATH = "batsmen.json"
 
     Teams = [
         "AFG",
@@ -41,22 +41,14 @@ if __name__ == "__main__":
     data.to_csv(os.path.join(_DATAROOT_, MATCHPATH), index=False)
 
     matchcodes = data["MatchCode"].tolist()
-    scorecards = dict()
-
-    for matchcode in matchcodes:
-        try:
-            card = getCard(matchcode)
-            scorecards[matchcode] = dataPipe(card)
-        except:
-            print(f"MatchCode {matchcode} removed due to rain")
-            scorecards[matchcode] = None
+    scorecards = {matchcode: dataPipe(getCard(matchcode)) for matchcode in matchcodes}
 
     with open(os.path.join(_DATAROOT_, SCOREPATH), "w") as fp:
         json.dump(scorecards, fp)
 
-    with open(os.path.join(_DATAROOT_, SCOREPATH), "w") as fp:
+    with open(os.path.join(_DATAROOT_, BATPATH), "r") as fp:
         players = json.load(fp).keys()
 
     info = {k: parseInfo(k) for k in players}
     info = pd.DataFrame.from_dict(info, orient="index")
-    info.to_csv("player_att.csv")
+    info.to_csv("attributes.csv")

@@ -11,8 +11,8 @@ def parseRow(row, teams, venue):
     mc, gc = mc.attrs["href"], gc.attrs["href"]
     entry["Date"] = stamp
     entry["Team_1"], entry["Team_2"] = teams
-    entry["MatchCode"] = re.sub("[^0-9]+", "", mc)
-    entry["GroundCode"] = re.sub("[^0-9]+", "", gc)
+    entry["MatchCode"] = int(re.sub("[^0-9]+", "", mc))
+    entry["GroundCode"] = int(re.sub("[^0-9]+", "", gc))
     entry["Venue"] = venue
     return entry
 

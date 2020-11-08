@@ -3,6 +3,7 @@ import re, requests
 
 
 def getCard(MatchCode):
+    MatchCode = str(MatchCode).zfill(4)
     link = f"http://www.howstat.com/cricket/Statistics/Matches/MatchScorecard_ODI.asp?MatchCode={MatchCode}"
     return requests.get(link)
 

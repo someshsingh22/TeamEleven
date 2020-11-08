@@ -3,6 +3,7 @@ import re, requests
 
 
 def parseInfo(code, stats=False):
+    code = str(code).zfill(4)
     link = f"http://www.howstat.com/cricket/Statistics/Players/PlayerOverview_ODI.asp?PlayerId={code}"
     page = requests.get(link).content
     page = bs(page).body
