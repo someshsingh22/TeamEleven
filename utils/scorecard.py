@@ -28,7 +28,8 @@ def ScoreCardScrape(card):
     BAT2IDX = 0
     for line in table.find_all("tr"):
         if line.find(text=re.compile("target")):
-            BAT2IDX += 1
+            break
+        BAT2IDX += 1
     BAT2 = table.find_all("tr")[BAT2IDX : 12 + BAT2IDX]
     return (ORDER, TOSS, (BAT1, BOWL1), (BAT2, BOWL2))
 
