@@ -1,0 +1,345 @@
+Classification report for Teams AFG vs WIN
+based on Scores: 
+              precision    recall  f1-score   support
+
+           1       0.77      0.83      0.80        36
+           2       0.86      0.80      0.83        45
+
+    accuracy                           0.81        81
+   macro avg       0.81      0.82      0.81        81
+weighted avg       0.82      0.81      0.82        81
+
+based on NRR: 
+              precision    recall  f1-score   support
+
+           1       0.75      0.83      0.79        36
+           2       0.85      0.78      0.81        45
+
+    accuracy                           0.80        81
+   macro avg       0.80      0.81      0.80        81
+weighted avg       0.81      0.80      0.80        81
+
+****************************************************
+Classification report for Teams AUS vs WIN
+based on Scores: 
+              precision    recall  f1-score   support
+
+           1       0.77      0.86      0.81       434
+           2       0.72      0.59      0.65       269
+
+    accuracy                           0.76       703
+   macro avg       0.75      0.73      0.73       703
+weighted avg       0.75      0.76      0.75       703
+
+based on NRR: 
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         0
+           1       0.76      0.84      0.80       434
+           2       0.69      0.56      0.62       269
+
+    accuracy                           0.73       703
+   macro avg       0.48      0.47      0.47       703
+weighted avg       0.73      0.73      0.73       703
+
+****************************************************
+Classification report for Teams BAN vs WIN
+based on Scores: 
+              precision    recall  f1-score   support
+
+           1       0.83      0.83      0.83        93
+           2       0.91      0.91      0.91       183
+
+    accuracy                           0.88       276
+   macro avg       0.87      0.87      0.87       276
+weighted avg       0.88      0.88      0.88       276
+
+based on NRR: 
+              precision    recall  f1-score   support
+
+           1       0.79      0.80      0.79        93
+           2       0.90      0.89      0.89       183
+
+    accuracy                           0.86       276
+   macro avg       0.84      0.84      0.84       276
+weighted avg       0.86      0.86      0.86       276
+
+****************************************************
+Classification report for Teams ENG vs WIN
+based on Scores: 
+              precision    recall  f1-score   support
+
+           1       0.79      0.78      0.79       275
+           2       0.77      0.79      0.78       265
+
+    accuracy                           0.78       540
+   macro avg       0.78      0.78      0.78       540
+weighted avg       0.78      0.78      0.78       540
+
+based on NRR: 
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         0
+           1       0.76      0.80      0.78       275
+           2       0.78      0.72      0.75       265
+
+    accuracy                           0.76       540
+   macro avg       0.51      0.51      0.51       540
+weighted avg       0.77      0.76      0.76       540
+
+****************************************************
+Classification report for Teams IND vs WIN
+based on Scores: 
+              precision    recall  f1-score   support
+
+           1       0.88      0.78      0.83       378
+           2       0.78      0.88      0.83       330
+
+    accuracy                           0.83       708
+   macro avg       0.83      0.83      0.83       708
+weighted avg       0.83      0.83      0.83       708
+
+based on NRR: 
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         0
+           1       0.85      0.76      0.80       378
+           2       0.75      0.84      0.80       330
+
+    accuracy                           0.80       708
+   macro avg       0.54      0.53      0.53       708
+weighted avg       0.81      0.80      0.80       708
+
+****************************************************
+Classification report for Teams IRE vs WIN
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+based on Scores: 
+              precision    recall  f1-score   support
+
+           1       0.85      0.87      0.86        39
+           2       0.91      0.89      0.90        57
+
+    accuracy                           0.89        96
+   macro avg       0.88      0.88      0.88        96
+weighted avg       0.89      0.89      0.89        96
+
+based on NRR: 
+              precision    recall  f1-score   support
+
+           1       0.85      0.87      0.86        39
+           2       0.91      0.89      0.90        57
+
+    accuracy                           0.89        96
+   macro avg       0.88      0.88      0.88        96
+weighted avg       0.89      0.89      0.89        96
+
+****************************************************
+Classification report for Teams KEN vs WIN
+based on Scores: 
+              precision    recall  f1-score   support
+
+           1       0.83      0.86      0.84        22
+           2       0.96      0.95      0.95        76
+
+    accuracy                           0.93        98
+   macro avg       0.89      0.91      0.90        98
+weighted avg       0.93      0.93      0.93        98
+
+based on NRR: 
+              precision    recall  f1-score   support
+
+           1       0.75      0.82      0.78        22
+           2       0.95      0.92      0.93        76
+
+    accuracy                           0.90        98
+   macro avg       0.85      0.87      0.86        98
+weighted avg       0.90      0.90      0.90        98
+
+****************************************************
+Classification report for Teams NED vs WIN
+based on Scores: 
+              precision    recall  f1-score   support
+
+           1       0.80      0.89      0.84         9
+           2       0.97      0.94      0.96        35
+
+    accuracy                           0.93        44
+   macro avg       0.89      0.92      0.90        44
+weighted avg       0.94      0.93      0.93        44
+
+based on NRR: 
+              precision    recall  f1-score   support
+
+           1       0.75      1.00      0.86         9
+           2       1.00      0.91      0.96        35
+
+    accuracy                           0.93        44
+   macro avg       0.88      0.96      0.91        44
+weighted avg       0.95      0.93      0.94        44
+
+****************************************************
+Classification report for Teams NZL vs WIN
+based on Scores: 
+              precision    recall  f1-score   support
+
+           1       0.84      0.84      0.84       260
+           2       0.86      0.85      0.86       293
+
+    accuracy                           0.85       553
+   macro avg       0.85      0.85      0.85       553
+weighted avg       0.85      0.85      0.85       553
+
+based on NRR: 
+              precision    recall  f1-score   support
+
+           1       0.79      0.83      0.81       260
+           2       0.84      0.81      0.82       293
+
+    accuracy                           0.82       553
+   macro avg       0.82      0.82      0.82       553
+weighted avg       0.82      0.82      0.82       553
+
+****************************************************
+Classification report for Teams PAK vs WIN
+based on Scores: 
+              precision    recall  f1-score   support
+
+           1       0.82      0.81      0.81       374
+           2       0.77      0.77      0.77       305
+
+    accuracy                           0.80       679
+   macro avg       0.79      0.79      0.79       679
+weighted avg       0.80      0.80      0.80       679
+
+based on NRR: 
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         0
+           1       0.80      0.79      0.80       374
+           2       0.75      0.75      0.75       305
+
+    accuracy                           0.77       679
+   macro avg       0.52      0.51      0.52       679
+weighted avg       0.78      0.77      0.78       679
+
+****************************************************
+Classification report for Teams SAF vs WIN
+based on Scores: 
+              precision    recall  f1-score   support
+
+           1       0.88      0.90      0.89       290
+           2       0.80      0.78      0.79       156
+
+    accuracy                           0.85       446
+   macro avg       0.84      0.84      0.84       446
+weighted avg       0.85      0.85      0.85       446
+
+based on NRR: 
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         0
+           1       0.86      0.88      0.87       290
+           2       0.77      0.73      0.75       156
+
+    accuracy                           0.83       446
+   macro avg       0.54      0.54      0.54       446
+weighted avg       0.83      0.83      0.83       446
+
+****************************************************
+Classification report for Teams SCO vs WIN
+based on Scores: 
+              precision    recall  f1-score   support
+
+           1       0.95      1.00      0.97        18
+           2       1.00      0.97      0.99        36
+
+    accuracy                           0.98        54
+   macro avg       0.97      0.99      0.98        54
+weighted avg       0.98      0.98      0.98        54
+
+based on NRR: 
+              precision    recall  f1-score   support
+
+           1       0.95      1.00      0.97        18
+           2       1.00      0.97      0.99        36
+
+    accuracy                           0.98        54
+   macro avg       0.97      0.99      0.98        54
+weighted avg       0.98      0.98      0.98        54
+
+****************************************************
+Classification report for Teams SRL vs WIN
+based on Scores: 
+              precision    recall  f1-score   support
+
+           1       0.85      0.79      0.82       292
+           2       0.82      0.87      0.84       310
+
+    accuracy                           0.83       602
+   macro avg       0.83      0.83      0.83       602
+weighted avg       0.83      0.83      0.83       602
+
+based on NRR: 
+              precision    recall  f1-score   support
+
+           1       0.83      0.79      0.81       292
+           2       0.81      0.85      0.83       310
+
+    accuracy                           0.82       602
+   macro avg       0.82      0.82      0.82       602
+weighted avg       0.82      0.82      0.82       602
+
+****************************************************
+Classification report for Teams WIN vs WIN
+based on Scores: 
+              precision    recall  f1-score   support
+
+           1       0.87      0.73      0.79       292
+           2       0.76      0.88      0.82       280
+
+    accuracy                           0.81       572
+   macro avg       0.81      0.81      0.81       572
+weighted avg       0.81      0.81      0.81       572
+
+based on NRR: 
+              precision    recall  f1-score   support
+
+           1       0.81      0.75      0.78       292
+           2       0.76      0.82      0.79       280
+
+    accuracy                           0.78       572
+   macro avg       0.78      0.78      0.78       572
+weighted avg       0.79      0.78      0.78       572
+
+****************************************************
+Classification report for Teams ZIM vs WIN
+based on Scores: 
+              precision    recall  f1-score   support
+
+           1       0.71      0.63      0.67        98
+           2       0.88      0.91      0.89       281
+
+    accuracy                           0.84       379
+   macro avg       0.79      0.77      0.78       379
+weighted avg       0.83      0.84      0.84       379
+
+based on NRR: 
+              precision    recall  f1-score   support
+
+           1       0.69      0.62      0.66        98
+           2       0.87      0.90      0.89       281
+
+    accuracy                           0.83       379
+   macro avg       0.78      0.76      0.77       379
+weighted avg       0.83      0.83      0.83       379
+
+****************************************************
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
