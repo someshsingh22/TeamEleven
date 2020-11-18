@@ -388,8 +388,8 @@ model = AE(dropout=0.3)
 criterion = nn.MSELoss()
 ED_Loss_train, NRR_Loss_train, Player_Loss_train = [], [], []
 ED_Loss_test, NRR_Loss_test, Player_Loss_test = [], [], []
-optimizer = optim.RMSprop(model.parameters(), lr=3e-4,)
-epochs = 10000
+optimizer = optim.RMSprop(model.parameters(), lr=1e-4,)
+epochs = 8200
 for epoch in range(1, epochs + 1):
     model.train()
     inputs1 = torch.FloatTensor(nnPStats1[:, :, :12][train_idx])
