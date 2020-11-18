@@ -9,3 +9,8 @@
     3. DTR_final.py and DTR_Negated_final.py
     4. Classification Reports
     5. Report 
+3. Nidhi Zare: 2017A7PS0139G
+    1. Data Preprocessing
+    2. Data Analysis
+    3. First_approach.py
+    4. Report
