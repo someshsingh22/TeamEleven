@@ -12,5 +12,10 @@
 3. Nidhi Zare: 2017A7PS0139G
     1. Data Preprocessing
     2. Data Analysis
-    3. First_approach.py
+    3. First_approach.py (Model Training and testing)
+    4. Report
+4. Nikhil Bisht: 2017B5A70610G
+    1. Data Preprocessing
+    2. Data Analysis
+    3. First_approach.py (Data extraction)
     4. Report
